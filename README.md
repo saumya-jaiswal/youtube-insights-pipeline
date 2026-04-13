@@ -7,21 +7,8 @@ An end-to-end Python pipeline that automatically fetches videos from a YouTube p
 Employees at a financial services firm couldn't access YouTube due to company security restrictions, yet needed to stay updated with the Managing Director's video content. Watching full 1-hour videos was impractical. This pipeline automates the entire process — fetching, transcribing and summarising videos into 5-minute insight reports — and extends further to auto-generate speeches in the MD's style.
 
 ## Architecture
-YouTube Playlist
-↓
-YouTube Data API v3 (fetch video list)
-↓
-yt-dlp + ffmpeg (download & convert audio)
-↓
-AWS S3 (store audio files)
-↓
-AWS Transcribe (transcribe audio with custom vocabulary)
-↓
-AWS Bedrock — Claude 3 Sonnet (generate structured insights)
-↓
-AWS S3 (store transcripts & insights) + DynamoDB (track processed videos)
-↓
-Speech Pipeline (analyse speaking style → generate speeches using real-time market data)
+
+![Pipeline Workflow](Workflow.png)
 
 ## Features
 
