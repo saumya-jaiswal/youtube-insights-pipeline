@@ -1,0 +1,23 @@
+# AWS
+boto3
+botocore
+
+# Environment
+python-dotenv
+
+# YouTube
+yt-dlp
+youtube-transcript-api
+pytube
+
+# Web & HTTP
+certifi
+requests
+beautifulsoup4
+
+# Financial Data
+yfinance
+
+# Speech Generation
+# (speech_pipeline.py)
+# No additional installs needed beyond above
