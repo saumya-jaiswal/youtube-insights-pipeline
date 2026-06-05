@@ -4,7 +4,7 @@ An end-to-end Python pipeline that automatically fetches videos from a YouTube p
 
 ## Problem Statement
 
-Employees at a financial services firm couldn't access YouTube due to company security restrictions, yet needed to stay updated with the Managing Director's video content. Watching full 1-hour videos was impractical. This pipeline automates the entire process — fetching, transcribing and summarising videos into 5-minute insight reports — and extends further to auto-generate speeches in the MD's style.
+Employees at a financial services firm couldn't access YouTube due to company security restrictions, yet needed to stay updated with the Managing Director's video content. Watching full 1-hour videos was impractical. This pipeline automates the entire process: fetching, transcribing and summarising videos into 5-minute insight reports, and extends further to auto-generate speeches in the MD's style.
 
 ## Architecture
 
